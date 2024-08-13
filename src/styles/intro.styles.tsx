@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const IntroContainer = styled.div`
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: center;
   margin-left: 160px;
   margin-right: 160px;
@@ -61,13 +61,13 @@ export const IconShoppingCart = styled(IconBaseImg)`
 `
 
 export const IconPacking = styled(IconBaseImg)`
-  background-color: ${(props) => props.theme["yellow"]};
-`
-
-export const IconTimer = styled(IconBaseImg)`
   background-color: ${(props) => props.theme["base-text"]};
 `
 
+export const IconTimer = styled(IconBaseImg)`
+  background-color: ${(props) => props.theme["yellow"]};
+`
+
 export const IconCoffee = styled(IconBaseImg)`
-  background-color: ${(props) => props.theme["purple-dark"]};
+  background-color: ${(props) => props.theme["purple"]};
 `

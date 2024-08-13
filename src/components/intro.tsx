@@ -30,6 +30,7 @@ export const IntroOfThePage = () => {
               </IconShoppingCart>
               <p>Compra simples e segura</p>
             </IconAndTextContainer>
+
             <IconAndTextContainer>
               <IconTimer>
                 <Timer />
@@ -45,6 +46,7 @@ export const IntroOfThePage = () => {
               </IconPacking>
               <p>Embalagem mantém o café intacto</p>
             </IconAndTextContainer>
+            
             <IconAndTextContainer>
               <IconCoffee>
                 <Coffee />
