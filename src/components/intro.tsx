@@ -57,7 +57,7 @@ export const IntroOfThePage = () => {
         </ItemsContainer>
       </IntroTextContainer>
 
-      <img src="../../public/intro-cup-img.png" alt="" />
+      <img src="../intro-cup-img.png" alt="Imagem de um copo com a logo" />
     </IntroContainer>
   );
 };
