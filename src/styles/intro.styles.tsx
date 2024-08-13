@@ -6,7 +6,7 @@ export const IntroContainer = styled.div`
   justify-content: center;
   margin-left: 160px;
   margin-right: 160px;
-  margin-top: 100px;
+  margin-top: 80px;
   gap: 80px;
 `;
 
@@ -18,16 +18,21 @@ export const IntroTextContainer = styled.div`
 
 export const Title = styled.h1`
   font-family: "Baloo 2", sans-serif;
-  font-weight: 48px;
+  font-weight: 800;
   line-height: 130%;
+  font-size: 48px;
   color: ${(props) => props.theme["base-title"]};
+  margin-bottom: 16px;
 `;
 
 export const Description = styled.p`
   font-family: "Baloo 2", sans-serif;
-  font-weight: 20px;
+  font-weight: 400;
   line-height: 130%;
+  font-size: 20px;
   color: ${(props) => props.theme["base-subtitle"]};
+  margin-top: 0;
+  margin-bottom: 60px;
 `;
 
 export const ItemsContainer = styled.div`
@@ -41,7 +46,9 @@ export const IconAndTextContainer = styled.div`
   display: flex;
   flex-flow: row;
   align-items: center;
-  gap: 6px;
+  gap: 12px;
+
+  font-size: 16px;
 `
 
 export const IconBaseImg = styled.div`
