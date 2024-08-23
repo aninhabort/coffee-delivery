@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 export const IntroContainer = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-left: 160px;
   margin-right: 160px;
   margin-top: 80px;
