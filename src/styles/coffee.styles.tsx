@@ -96,11 +96,11 @@ export const QuantityContainer = styled.div`
   height: 38px;
   align-items: center;
   justify-content: space-evenly;
+  border-radius: 5px;
 
   button {
     border: none;
     background: none;
-    border-radius: 6px;
     color: ${(props) => props.theme["purple"]};
   }
 `;
