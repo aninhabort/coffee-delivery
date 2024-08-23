@@ -28,11 +28,11 @@ export const CoffeeTypeTags = styled.div`
   p {
     background-color: ${(props) => props.theme["yellow-light"]};
     width: fit-content;
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 100px;
 
     font-family: "Roboto", sans-serif;
-    font-weight: 800;
+    font-weight: bold;
     line-height: 130%;
     font-size: 10px;
     color: ${(props) => props.theme["yellow-dark"]};
