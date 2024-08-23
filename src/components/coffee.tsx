@@ -1,4 +1,4 @@
-import { ShoppingCart } from "phosphor-react";
+import { Minus, Plus, ShoppingCart } from "phosphor-react";
 import {
   BuyProductContainer,
   CoffeeContainer,
@@ -46,13 +46,17 @@ export const Coffee = ({ title, description, img, price, tags }: CoffeeType) => 
 
         <QuantityAndShopContainer>
           <QuantityContainer>
-            <button onClick={decrementQuantity}>-</button>
+            <button onClick={decrementQuantity}>
+              <Minus size={15} weight="bold" />
+            </button>
             <p>{quantity}</p>
-            <button onClick={incrementQuantity}>+</button>
+            <button onClick={incrementQuantity}>
+              <Plus size={15} weight="bold" />
+            </button>
           </QuantityContainer>
 
           <ShoppingCartContainer>
-            <ShoppingCart size={20} color="white" />
+            <ShoppingCart size={20} color="white" weight="fill" />
           </ShoppingCartContainer>
         </QuantityAndShopContainer>
       </BuyProductContainer>

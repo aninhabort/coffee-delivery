@@ -26,14 +26,14 @@ export const IntroOfThePage = () => {
           <div>
             <IconAndTextContainer>
               <IconShoppingCart>
-                <ShoppingCart />
+                <ShoppingCart weight="fill" />
               </IconShoppingCart>
               <p>Compra simples e segura</p>
             </IconAndTextContainer>
 
             <IconAndTextContainer>
               <IconTimer>
-                <Timer />
+                <Timer weight="fill" />
               </IconTimer>
               <p>Entrega rápida e rastreada</p>
             </IconAndTextContainer>
@@ -42,14 +42,14 @@ export const IntroOfThePage = () => {
           <div>
             <IconAndTextContainer>
               <IconPacking>
-                <Package />
+                <Package weight="fill" />
               </IconPacking>
               <p>Embalagem mantém o café intacto</p>
             </IconAndTextContainer>
             
             <IconAndTextContainer>
               <IconCoffee>
-                <Coffee />
+                <Coffee weight="fill" />
               </IconCoffee>
               <p>O café chega fresquinho até você</p>
             </IconAndTextContainer>

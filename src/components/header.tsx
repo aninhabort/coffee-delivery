@@ -19,7 +19,7 @@ export const Header = () => {
       </LocalUserContainer>
 
       <ShoppingCartContainer>
-        <ShoppingCart size={20} color={defaultTheme["yellow-dark"]} />
+        <ShoppingCart size={20} color={defaultTheme["yellow-dark"]} weight="fill" />
       </ShoppingCartContainer>
     </HeaderContainer>
   );

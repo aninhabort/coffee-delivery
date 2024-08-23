@@ -95,13 +95,19 @@ export const QuantityContainer = styled.div`
   width: 72px;
   height: 38px;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   border-radius: 5px;
 
   button {
     border: none;
     background: none;
+    font-size: 16px;
     color: ${(props) => props.theme["purple"]};
+    padding-top: 2px;
+  }
+
+  button:hover {
+    color: ${(props) => props.theme["purple-dark"]};
   }
 `;
 
@@ -109,8 +115,15 @@ export const ShoppingCartContainer = styled.div`
   display: flex;
   flex-flow: row;
   align-items: center;
-  background: ${(props) => props.theme["purple-dark"]};
-  padding: 8px;
-  height: 20px;
+  background-color: ${(props) => props.theme["purple-dark"]};
+  width: 38px;
+  height: 38px;
   border-radius: 5px;
+  justify-content: center;
+
+  :hover {
+    background-color: ${(props) => props.theme["purple"]};
+    padding: 9px;
+    border-radius: 5px;
+  }
 `;
