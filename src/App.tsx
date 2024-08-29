@@ -1,7 +1,7 @@
-import { ThemeProvider } from "styled-components"
-import { BrowserRouter } from "react-router-dom"
-import Router from "./router"
-import { defaultTheme } from "./styles/default"
+import { ThemeProvider } from "styled-components";
+import { BrowserRouter } from "react-router-dom";
+import Router from "./routes/router";
+import { defaultTheme } from "./styles/default";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Router />
       </BrowserRouter>
     </ThemeProvider>
-  )
+  );
 }
 
-export default App
+export default App;
